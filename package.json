@@ -1,0 +1,34 @@
+{
+  "name": "hw2",
+  "version": "1.0.0",
+  "description": "HW2 for CIS 197",
+  "repository": "https://github.com/cis197/HW2",
+  "main": "app.js",
+  "scripts": {
+    "test": "mocha",
+    "lint": "node ./scripts/lint",
+    "zip": "node ./scripts/zip"
+  },
+  "author": "CIS 197 Staff <niharp@seas.upenn.edu>",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^3.2.0",
+    "grunt": "^1.0.4",
+    "mocha": "^8.1.3",
+    "proxyquire": "^1.7.1",
+    "sinon": "^1.16.1",
+    "eslint": "^6.8.0",
+    "eslint-plugin-import": "^2.21.2",
+    "eslint-plugin-jsx-a11y": "^6.3.0",
+    "eslint-plugin-react": "^7.20.0",
+    "eslint-plugin-react-hooks": "^4 || ^3 || ^2.3.0 || ^1.7.0"
+  },
+  "dependencies": {
+    "@types/eslint": "^6.1.1",
+    "archiver": "^3.1.1",
+    "async": "^1.4.2",
+    "eslint-config-airbnb": "^18.2.0",
+    "node-fetch": "^2.6.1",
+    "sax": "^1.1.1"
+  }
+}
